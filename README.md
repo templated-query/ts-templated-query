@@ -19,6 +19,8 @@ const tq = q.toQuery();
 // tq.arguments["@p0"] = id
 // tq.arguments["@p1"] = name + %
 
+// if id was empty, condition will be skipped and first `AND` will disappear
+
 ```
 
 ## Benefits
